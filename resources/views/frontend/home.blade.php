@@ -494,69 +494,8 @@
                 </div>
                 <div class="col-lg-6 col-xl-7 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item">
-                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="testimonial-inner p-4">
-                                <img src="FrontEnd/img/testimonial-1.jpg" class="img-fluid" alt="">
-                                <div class="ms-4">
-                                    <h4>Person Name</h4>
-                                    <p>Profession</p>
-                                    <div class="d-flex text-primary">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-body"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="customer-text p-4">
-                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="testimonial-inner p-4">
-                                <img src="FrontEnd/img/testimonial-2.jpg" class="img-fluid" alt="">
-                                <div class="ms-4">
-                                    <h4>Person Name</h4>
-                                    <p>Profession</p>
-                                    <div class="d-flex text-primary">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-body"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="customer-text p-4">
-                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="testimonial-inner p-4">
-                                <img src="FrontEnd/img/testimonial-3.jpg" class="img-fluid" alt="">
-                                <div class="ms-4">
-                                    <h4>Person Name</h4>
-                                    <p>Profession</p>
-                                    <div class="d-flex text-primary">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-body"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="customer-text p-4">
-                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
-                            </div>
-                        </div>
+                        
+                        @include('frontend.Home.testimonials')
                     </div>
                 </div>
             </div>
